@@ -1,0 +1,5 @@
+"Rule: ocaml: ml -> cmo & cmi (%=ast )": "\249\170\187\146\178p@@w\153=\135l\167\253b"
+"Rule: ocaml dependencies ml (%=ast )": "\012\130\224 \212\221\233e\156fi\215\235\204{'"
+"Rule: ocaml: d.cmo* -> d.byte (%=ast )": "7\n!<\130\0077\232\181\224M!\201\220A\183"
+"Rule: ocaml: ml -> d.cmo & cmi (%=ast )": "\2317\217\154\187\025\232>~\239\221\175\007h\159\217"
+"Resource: /Users/user/projects/SICP---Interpreters/4.1/ast.ml": "\199\135\179b\2092\161\250\189\174\1473g\241\199\205"

@@ -1,0 +1,10 @@
+### Starting build.
+# Target: ast.ml.depends, tags: { extension:ml, file:ast.ml, ocaml, ocamldep, quiet }
+/Users/user/.opam/4.10.0/bin/ocamldep.opt -modules ast.ml > ast.ml.depends
+# Target: ast.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ast.cmo, file:ast.ml, implem, ocaml, quiet }
+/Users/user/.opam/4.10.0/bin/ocamlc.opt -c -o ast.cmo ast.ml
+# Target: ast.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:ast.d.cmo, file:ast.ml, implem, ocaml, quiet }
+/Users/user/.opam/4.10.0/bin/ocamlc.opt -c -g -o ast.d.cmo ast.ml
+# Target: ast.d.byte, tags: { byte, debug, dont_link_with, extension:byte, file:ast.d.byte, link, ocaml, program, quiet }
+/Users/user/.opam/4.10.0/bin/ocamlc.opt -g ast.d.cmo -o ast.d.byte
+# Compilation successful.
