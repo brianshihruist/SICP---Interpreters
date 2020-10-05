@@ -1,6 +1,6 @@
 open Ast
 
-let string_of_const c = 
+let string_of_const (c: constant): string = 
   match c with 
     | Int i -> string_of_int i
     | Bool b -> string_of_bool b
