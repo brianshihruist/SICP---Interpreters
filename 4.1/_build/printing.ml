@@ -8,4 +8,5 @@ let string_of_const (c: constant): string =
 let exp2string (e:exp) =
     match e with
     | Constant c -> string_of_const c
+    | Var x -> x
     | _ -> failwith "unimplemented"

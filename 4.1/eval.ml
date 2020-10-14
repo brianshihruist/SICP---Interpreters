@@ -9,9 +9,13 @@ let print = Printf.printf
 
 let eval (e: exp) =
     match e with
-    | Var x -> ""
+    | Var x -> x
     | _ -> failwith "unimplemented"
     
-let zero = Constant (Int 0)
-let _ = print_string (exp2string zero);
+let zero = Constant (Int 2)
+let varr = Var "hello"
+let print_exp (e: exp) = ( print_string (exp2string e ^ "\n"); )
+let _ = print_exp(varr)
+     
+
 (* let _ = string_of_const (Constant (Int 12)) *)
